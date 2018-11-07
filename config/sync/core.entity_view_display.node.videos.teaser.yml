@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.videos.body
+    - field.field.node.videos.field_reference_on_related_video
+    - field.field.node.videos.field_video
     - node.type.videos
   module:
     - text
@@ -25,6 +27,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_reference_on_related_video: true
   field_video: true

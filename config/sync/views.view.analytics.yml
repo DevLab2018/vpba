@@ -21,7 +21,7 @@ dependencies:
     - user
     - video_embed_field
 id: analytics
-label: Analytics/Blog/Videos
+label: Аналытка/Блог/Відео
 module: views
 description: ''
 tag: ''
@@ -416,6 +416,8 @@ display:
           table: node__field_video
           field: field_video_value
           plugin_id: string
+          expose:
+            placeholder: ''
       sorts:
         created:
           id: created
