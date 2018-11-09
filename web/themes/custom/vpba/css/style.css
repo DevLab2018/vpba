@@ -10699,6 +10699,11 @@ body .mini-menu .container .dropdown-menu > .active > a, body:not(.front-page) #
   background-color: transparent;
 }
 
+/* line 369, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/component/_navbar.scss */
+.front-page .mini-menu .region-navigation-collapsible {
+  background-color: #000 !important;
+}
+
 /**
  * Node styling.
  */
@@ -12697,7 +12702,7 @@ body:not(.front-page), body.path-bloggers, body.path-user {
 
 /* line 6, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar, body.path-bloggers #navbar, body.path-user #navbar {
-  background-color: #ffffff;
+  background-color: #800000;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -12725,17 +12730,17 @@ body:not(.front-page) #navbar .container .navbar-header, body.path-bloggers #nav
   border-bottom: 0;
 }
 
-/* line 24, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 21, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .logo, body.path-bloggers #navbar .container .navbar-header .logo, body.path-user #navbar .container .navbar-header .logo {
   display: none;
 }
 
-/* line 26, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 23, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .logo img, body.path-bloggers #navbar .container .navbar-header .logo img, body.path-user #navbar .container .navbar-header .logo img {
   width: 50px;
 }
 
-/* line 30, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 27, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-brand, body.path-bloggers #navbar .container .navbar-header .navbar-brand, body.path-user #navbar .container .navbar-header .navbar-brand {
   color: #ffffff;
   font-size: 35px;
@@ -12743,24 +12748,24 @@ body:not(.front-page) #navbar .container .navbar-header .navbar-brand, body.path
   font-family: Arno Pro Bold Caption;
 }
 
-/* line 36, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 33, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-brand:hover, body.path-bloggers #navbar .container .navbar-header .navbar-brand:hover, body.path-user #navbar .container .navbar-header .navbar-brand:hover {
   color: #000;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 30, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 27, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container .navbar-header .navbar-brand, body.path-bloggers #navbar .container .navbar-header .navbar-brand, body.path-user #navbar .container .navbar-header .navbar-brand {
     margin-top: 0;
   }
 }
 
-/* line 44, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 41, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header p, body.path-bloggers #navbar .container .navbar-header p, body.path-user #navbar .container .navbar-header p {
   display: none;
 }
 
-/* line 47, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 44, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-toggle, body.path-bloggers #navbar .container .navbar-header .navbar-toggle, body.path-user #navbar .container .navbar-header .navbar-toggle {
   left: 5vw;
   top: 0;
@@ -12773,33 +12778,33 @@ body:not(.front-page) #navbar .container .navbar-header .navbar-toggle, body.pat
   border: 0;
 }
 
-/* line 58, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 55, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-toggle span.icon-bar, body.path-bloggers #navbar .container .navbar-header .navbar-toggle span.icon-bar, body.path-user #navbar .container .navbar-header .navbar-toggle span.icon-bar {
   background-color: #ffffff;
 }
 
-/* line 63, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 60, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header button.navbar-toggle:hover, body.path-bloggers #navbar .container .navbar-header button.navbar-toggle:hover, body.path-user #navbar .container .navbar-header button.navbar-toggle:hover {
   background-color: #000;
 }
 
-/* line 66, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 63, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header button.navbar-toggle:hover span.icon-bar, body.path-bloggers #navbar .container .navbar-header button.navbar-toggle:hover span.icon-bar, body.path-user #navbar .container .navbar-header button.navbar-toggle:hover span.icon-bar {
   background-color: #ffffff;
 }
 
-/* line 72, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 69, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .region-navigation, body.path-bloggers #navbar .container .region-navigation, body.path-user #navbar .container .region-navigation {
   height: 60px;
   background-color: #800000;
 }
 
-/* line 77, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 74, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse.in, body.path-bloggers #navbar .container #navbar-collapse.in, body.path-user #navbar .container #navbar-collapse.in {
   display: block !important;
 }
 
-/* line 81, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 78, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse, body.path-bloggers #navbar .container #navbar-collapse, body.path-user #navbar .container #navbar-collapse {
   display: none !important;
   position: absolute;
@@ -12808,14 +12813,15 @@ body:not(.front-page) #navbar .container #navbar-collapse, body.path-bloggers #n
 }
 
 @media screen and (max-width: 767px) {
-  /* line 81, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 78, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse, body.path-bloggers #navbar .container #navbar-collapse, body.path-user #navbar .container #navbar-collapse {
     top: 60px;
   }
 }
 
-/* line 89, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 86, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible {
+  background-color: #000;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -12829,7 +12835,7 @@ body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-col
 }
 
 @media screen and (max-width: 767px) {
-  /* line 89, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 86, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible {
     width: 100%;
     float: none;
@@ -12837,14 +12843,14 @@ body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-col
 }
 
 @media screen and (max-width: 767px) {
-  /* line 99, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 97, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 103, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 101, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -12852,20 +12858,20 @@ body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-col
   }
 }
 
-/* line 108, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 106, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul li a, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul li a, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul li a {
   font-size: 20px;
   color: white;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 115, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 113, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-searchform, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-searchform, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-searchform {
     display: none;
   }
 }
 
-/* line 124, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 122, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container, body.path-bloggers .main-container, body.path-user .main-container {
   max-width: 1100px;
   min-height: calc(100vh - 285px);
@@ -12874,54 +12880,54 @@ body:not(.front-page) .main-container, body.path-bloggers .main-container, body.
   padding-top: 60px;
 }
 
-/* line 131, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 129, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container img, body.path-bloggers .main-container img, body.path-user .main-container img {
   margin: 0 auto;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 124, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 122, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container, body.path-bloggers .main-container, body.path-user .main-container {
     width: 90vw;
   }
 }
 
-/* line 137, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 135, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container a, body.path-bloggers .main-container a, body.path-user .main-container a {
   color: #000;
 }
 
-/* line 140, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 138, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container a:hover, body.path-bloggers .main-container a:hover, body.path-user .main-container a:hover {
   font-weight: 600;
   text-decoration: none;
 }
 
-/* line 145, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 143, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9, body:not(.front-page) .main-container .row .col-sm-12, body.path-bloggers .main-container .row .col-sm-9, body.path-bloggers .main-container .row .col-sm-12, body.path-user .main-container .row .col-sm-9, body.path-user .main-container .row .col-sm-12 {
   float: none;
   margin: 0 auto;
 }
 
-/* line 152, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 150, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .highlighted .social-media-sharing ul, body:not(.front-page) .main-container .row .col-sm-12 .highlighted .social-media-sharing ul, body.path-bloggers .main-container .row .col-sm-9 .highlighted .social-media-sharing ul, body.path-bloggers .main-container .row .col-sm-12 .highlighted .social-media-sharing ul, body.path-user .main-container .row .col-sm-9 .highlighted .social-media-sharing ul, body.path-user .main-container .row .col-sm-12 .highlighted .social-media-sharing ul {
   float: left;
   padding: 20px 0;
 }
 
-/* line 157, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 155, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body:not(.front-page) .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img {
   width: 25px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 157, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 155, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body:not(.front-page) .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img {
     width: 35px;
   }
 }
 
-/* line 172, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 170, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture {
   display: inline-block;
   float: left;
@@ -12929,24 +12935,24 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
   padding-bottom: 10px;
 }
 
-/* line 177, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 175, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content {
   margin-right: 20px;
 }
 
-/* line 179, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 177, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img {
   border-radius: 200px;
   height: 80px;
   width: 80px;
 }
 
-/* line 187, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 185, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid {
   margin-top: 20px;
 }
 
-/* line 191, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 189, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content {
   text-decoration: none;
   font-size: 45px;
@@ -12957,13 +12963,13 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
 }
 
 @media screen and (max-width: 767px) {
-  /* line 191, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 189, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content {
     font-size: 35px;
   }
 }
 
-/* line 206, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 204, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid .field-content a {
   text-decoration: none;
   font-size: 18px;
@@ -12971,7 +12977,7 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
   font-style: italic;
 }
 
-/* line 217, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 215, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt {
   font-size: 16px;
   display: block;
@@ -12980,28 +12986,28 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
 }
 
 @media screen and (max-width: 767px) {
-  /* line 217, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 215, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt {
     font-size: 14px;
   }
 }
 
-/* line 230, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 228, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created {
   padding-bottom: 15px;
 }
 
-/* line 232, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 230, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created .field-content {
   font-size: 16px;
 }
 
-/* line 236, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 234, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body {
   padding-bottom: 20px;
 }
 
-/* line 239, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 237, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p {
   font-size: 20px;
   padding: 5px 0;
@@ -13009,32 +13015,32 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
 }
 
 @media screen and (max-width: 767px) {
-  /* line 239, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 237, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p {
     font-size: 16px;
   }
 }
 
-/* line 259, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 257, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title {
   margin-top: 20px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 261, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 259, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content {
     font-size: 30px;
     font-weight: 600;
   }
 }
 
-/* line 273, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 271, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside, body.path-bloggers .main-container .row aside, body.path-user .main-container .row aside {
   margin: 0 auto;
   float: none;
 }
 
-/* line 276, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 274, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well, body.path-bloggers .main-container .row aside .well, body.path-user .main-container .row aside .well {
   background: none;
   border: 0;
@@ -13043,14 +13049,14 @@ body:not(.front-page) .main-container .row aside .well, body.path-bloggers .main
 }
 
 @media screen and (max-width: 767px) {
-  /* line 276, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 274, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well, body.path-bloggers .main-container .row aside .well, body.path-user .main-container .row aside .well {
     padding: 0;
     text-align: center;
   }
 }
 
-/* line 285, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 283, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1,
@@ -13061,7 +13067,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   border-top: 1px solid #e2e2e2;
 }
 
-/* line 289, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 287, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .block-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .block-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .block-title, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .block-title,
@@ -13073,7 +13079,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   margin-top: 10px;
 }
 
-/* line 293, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 291, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
@@ -13086,7 +13092,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 293, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 291, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
@@ -13098,7 +13104,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 300, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 298, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
@@ -13118,7 +13124,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 300, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 298, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
@@ -13130,7 +13136,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 309, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 307, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
@@ -13144,7 +13150,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 309, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 307, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
@@ -13157,7 +13163,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 318, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 316, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title .field-content a,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title .field-content a, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
@@ -13171,7 +13177,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 318, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 316, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title .field-content a,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title .field-content a, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
@@ -13183,7 +13189,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 328, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 326, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
@@ -13196,7 +13202,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 328, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 326, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
@@ -13208,7 +13214,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 335, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 333, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image .field-content ul,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image .field-content ul, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul,
@@ -13220,7 +13226,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   margin-bottom: 0;
 }
 
-/* line 338, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 336, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image .field-content ul img, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
@@ -13235,7 +13241,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 338, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 336, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image .field-content ul img, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
@@ -13248,7 +13254,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 351, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 349, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-created,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-created,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-created, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-created,
@@ -13262,12 +13268,12 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   width: 100px;
 }
 
-/* line 365, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 363, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li, body.path-bloggers .main-container .views-field-field-file li, body.path-user .main-container .views-field-field-file li {
   list-style-type: none;
 }
 
-/* line 367, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 365, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf {
   background: url("../images/icons/pdf.png") left center no-repeat;
   display: inline-block;
@@ -13277,42 +13283,42 @@ body:not(.front-page) .main-container .views-field-field-file li .file--mime-app
 }
 
 @media screen and (max-width: 767px) {
-  /* line 367, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 365, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf {
     font-size: 16px;
   }
 }
 
-/* line 376, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 374, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf .glyphicon-file:before, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf .glyphicon-file:before, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf .glyphicon-file:before {
   content: "";
 }
 
-/* line 379, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 377, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf span, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf span, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf span {
   border: none;
   background-color: #ededed;
 }
 
-/* line 383, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 381, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf a, body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf .file-size, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf a, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf .file-size, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf a, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf .file-size {
   text-decoration: none;
   color: #000;
   font-weight: 100;
 }
 
-/* line 388, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 386, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf a:hover, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf a:hover, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf a:hover {
   font-weight: 600;
 }
 
-/* line 394, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 392, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .block-title, body.path-bloggers .main-container .block-title, body.path-user .main-container .block-title {
   color: #800000;
   text-transform: uppercase;
 }
 
-/* line 401, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 399, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type),
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type), body.path-bloggers .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type),
 body.path-bloggers .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type), body.path-user .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type),
@@ -13320,7 +13326,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .block-gr
   border-top: 1px solid #800000;
 }
 
-/* line 403, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 401, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type) .grid__content,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type) .grid__content, body.path-bloggers .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type) .grid__content,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type) .grid__content, body.path-user .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type) .grid__content,
@@ -13328,7 +13334,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .block-gr
   margin-top: 20px;
 }
 
-/* line 407, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 405, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .block-grid li,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .block-grid li, body.path-bloggers .main-container #block-views-block-administration-block .block-grid li,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .block-grid li, body.path-user .main-container #block-views-block-administration-block .block-grid li,
@@ -13336,7 +13342,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .block-gr
   margin-bottom: 10px;
 }
 
-/* line 412, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 410, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper a,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper a, body.path-bloggers .main-container #block-views-block-administration-block .view-wrapper a,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .view-wrapper a, body.path-user .main-container #block-views-block-administration-block .view-wrapper a,
@@ -13345,7 +13351,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-right: 20px;
 }
 
-/* line 416, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 414, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper p,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper p, body.path-bloggers .main-container #block-views-block-administration-block .view-wrapper p,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .view-wrapper p, body.path-user .main-container #block-views-block-administration-block .view-wrapper p,
@@ -13353,7 +13359,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-top: 20px;
 }
 
-/* line 421, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 419, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff,
 body:not(.front-page) .main-container #block-views-block-administration-block,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation, body.path-bloggers .main-container #block-views-block-administration-staff,
@@ -13364,7 +13370,7 @@ body.path-user .main-container #block-views-block-teachers-corporation {
   padding-bottom: 10px;
 }
 
-/* line 426, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 424, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .view-wrapper img,
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper img,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper img, body.path-bloggers .main-container #block-views-block-administration-staff .view-wrapper img,
@@ -13376,7 +13382,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-right: 20px;
 }
 
-/* line 430, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 428, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .view-wrapper p,
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper p,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper p, body.path-bloggers .main-container #block-views-block-administration-staff .view-wrapper p,
@@ -13387,7 +13393,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-top: 20px;
 }
 
-/* line 434, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 432, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-title,
 body:not(.front-page) .main-container #block-views-block-administration-block .views-field-title,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-title, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-title,
@@ -13399,7 +13405,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
 }
 
 @media screen and (max-width: 767px) {
-  /* line 434, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 432, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-title,
   body:not(.front-page) .main-container #block-views-block-administration-block .views-field-title,
   body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-title, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-title,
@@ -13412,7 +13418,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
   }
 }
 
-/* line 441, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 439, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-nothing,
 body:not(.front-page) .main-container #block-views-block-administration-block .views-field-nothing,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-nothing, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-nothing,
@@ -13425,7 +13431,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
 }
 
 @media screen and (max-width: 480px) {
-  /* line 421, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 419, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container #block-views-block-administration-staff,
   body:not(.front-page) .main-container #block-views-block-administration-block,
   body:not(.front-page) .main-container #block-views-block-teachers-corporation, body.path-bloggers .main-container #block-views-block-administration-staff,
@@ -13435,7 +13441,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
   body.path-user .main-container #block-views-block-teachers-corporation {
     font-size: 16px;
   }
-  /* line 449, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 447, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-nothing .view-wrapper img,
   body:not(.front-page) .main-container #block-views-block-administration-block .views-field-nothing .view-wrapper img,
   body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-nothing .view-wrapper img, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-nothing .view-wrapper img,
@@ -13449,51 +13455,51 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
   }
 }
 
-/* line 458, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 456, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-history, body.path-bloggers .main-container #block-views-block-history, body.path-user .main-container #block-views-block-history {
   padding-bottom: 20px;
 }
 
-/* line 461, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 459, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-history .view-content .views-more-link, body.path-bloggers .main-container #block-views-block-history .view-content .views-more-link, body.path-user .main-container #block-views-block-history .view-content .views-more-link {
   float: right;
 }
 
-/* line 464, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 462, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-history .view-content div:not(:first-of-type), body.path-bloggers .main-container #block-views-block-history .view-content div:not(:first-of-type), body.path-user .main-container #block-views-block-history .view-content div:not(:first-of-type) {
   border-top: 1px solid #e2e2e2;
   margin: 50px 0 20px 0;
   padding-top: 20px;
 }
 
-/* line 471, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 469, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container article.administration, body.path-bloggers .main-container article.administration, body.path-user .main-container article.administration {
   display: none;
 }
 
-/* line 477, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 475, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent button, body.path-bloggers #cboxWrapper #cboxContent button, body.path-user #cboxWrapper #cboxContent button {
   position: absolute;
   top: 0;
   bottom: 0;
 }
 
-/* line 482, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 480, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxNext, body.path-bloggers #cboxWrapper #cboxContent #cboxNext, body.path-user #cboxWrapper #cboxContent #cboxNext {
   right: 2vw;
 }
 
-/* line 485, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 483, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious, body.path-bloggers #cboxWrapper #cboxContent #cboxPrevious, body.path-user #cboxWrapper #cboxContent #cboxPrevious {
   left: 2vw;
 }
 
-/* line 488, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 486, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious, body:not(.front-page) #cboxWrapper #cboxContent #cboxNext, body.path-bloggers #cboxWrapper #cboxContent #cboxPrevious, body.path-bloggers #cboxWrapper #cboxContent #cboxNext, body.path-user #cboxWrapper #cboxContent #cboxPrevious, body.path-user #cboxWrapper #cboxContent #cboxNext {
   display: block;
 }
 
-/* line 490, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 488, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious:before, body:not(.front-page) #cboxWrapper #cboxContent #cboxNext:before, body.path-bloggers #cboxWrapper #cboxContent #cboxPrevious:before, body.path-bloggers #cboxWrapper #cboxContent #cboxNext:before, body.path-user #cboxWrapper #cboxContent #cboxPrevious:before, body.path-user #cboxWrapper #cboxContent #cboxNext:before {
   background: rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
@@ -13503,7 +13509,7 @@ body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious:before, body:not(.
   height: 22px;
 }
 
-/* line 499, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 497, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxClose, body.path-bloggers #cboxWrapper #cboxContent #cboxClose, body.path-user #cboxWrapper #cboxContent #cboxClose {
   top: 2vw;
   right: 2vw;
@@ -13511,7 +13517,7 @@ body:not(.front-page) #cboxWrapper #cboxContent #cboxClose, body.path-bloggers #
   font-weight: 700;
 }
 
-/* line 514, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 512, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row {
   display: -webkit-flex;
   display: -ms-flex;
@@ -13526,7 +13532,7 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
 }
 
 @media screen and (max-width: 450px) {
-  /* line 514, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 512, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -13534,20 +13540,20 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
   }
 }
 
-/* line 527, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 525, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
   width: 80px;
   margin-right: 0;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 527, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 525, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
     width: 150px;
   }
 }
 
-/* line 534, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 532, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content a img {
   object-fit: cover;
   height: 80px;
@@ -13556,7 +13562,7 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
 }
 
 @media screen and (max-width: 450px) {
-  /* line 534, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 532, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content a img {
     width: 150px;
     height: 150px;
@@ -13564,13 +13570,13 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
 }
 
 @media screen and (max-width: 450px) {
-  /* line 552, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 550, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content {
     margin-top: 20px;
   }
 }
 
-/* line 556, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 554, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row {
   display: -webkit-flex;
   display: -ms-flex;
@@ -13582,7 +13588,7 @@ body.path-bloggers .view-content .views-row {
 }
 
 @media screen and (max-width: 450px) {
-  /* line 556, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 554, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content .views-row {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -13591,19 +13597,19 @@ body.path-bloggers .view-content .views-row {
   }
 }
 
-/* line 569, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 567, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
   width: 100px;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 569, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 567, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
     width: 150px;
   }
 }
 
-/* line 574, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 572, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content img {
   object-fit: cover;
   height: 100px;
@@ -13611,37 +13617,37 @@ body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .f
 }
 
 @media screen and (max-width: 450px) {
-  /* line 574, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 572, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content img {
     height: 150px;
   }
 }
 
-/* line 584, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 582, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing {
   margin: 25px;
 }
 
-/* line 586, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 584, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing .bloger-name a {
   font-size: 36px;
   color: #000;
   text-decoration: none;
 }
 
-/* line 591, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 589, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing p {
   color: #666666;
   font-size: 16px;
 }
 
-/* line 594, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 592, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing p a {
   color: #9e0f07;
   text-decoration: none;
 }
 
-/* line 605, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 603, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info {
   display: -webkit-flex;
   display: -ms-flex;
@@ -13652,7 +13658,7 @@ body.path-user .container-info {
           flex-direction: column;
 }
 
-/* line 610, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 608, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info .img-name {
   width: 100%;
   display: -webkit-inline-flex;
@@ -13665,7 +13671,7 @@ body.path-user .container-info .img-name {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 610, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 608, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info .img-name {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -13675,7 +13681,7 @@ body.path-user .container-info .img-name {
   }
 }
 
-/* line 621, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 619, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info .img-name img {
   object-fit: cover;
   height: 100px;
@@ -13684,14 +13690,14 @@ body.path-user .container-info .img-name img {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 621, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 619, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info .img-name img {
     height: 150px;
     width: 150px;
   }
 }
 
-/* line 632, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 630, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info .img-name .bloger-name {
   font-size: 36px;
   color: #000;
@@ -13700,14 +13706,14 @@ body.path-user .container-info .img-name .bloger-name {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 632, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 630, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info .img-name .bloger-name {
     margin-top: 10px;
     margin-left: 0;
   }
 }
 
-/* line 644, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 642, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info p {
   padding: 25px 0 25px 125px;
   border-bottom: 1px solid black;
@@ -13715,48 +13721,48 @@ body.path-user .container-info p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 644, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 642, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info p {
     padding: 25px 0;
   }
 }
 
-/* line 656, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 654, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .page-node-type-videos .views-field-field-video {
   width: 70vw;
   margin: 0 auto;
 }
 
-/* line 659, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 657, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .page-node-type-videos .views-field-field-video .field-content {
   margin: 20px 0 20px 0;
 }
 
-/* line 667, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 665, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .pagination .active a {
   background-color: #dadada;
   border-color: #dadada;
 }
 
-/* line 670, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 668, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .pagination .active a:hover {
   background-color: #dadada;
 }
 
-/* line 677, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 675, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .field--name-user-picture,
 .author {
   display: none;
 }
 
-/* line 683, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 681, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-news-block img, #block-views-block-videos-block img, #block-views-block-analitics img, #block-views-block-photo-gallery img {
   height: 25vh;
   object-fit: cover;
   width: 100%;
 }
 
-/* line 689, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 687, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-news-block .views-field-title, #block-views-block-videos-block .views-field-title, #block-views-block-analitics .views-field-title, #block-views-block-photo-gallery .views-field-title {
   font-size: 30px;
   display: block;
@@ -13764,19 +13770,19 @@ body.path-user .container-info p {
   line-height: 1.2;
 }
 
-/* line 696, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 694, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-news-block .field-content hr, #block-views-block-videos-block .field-content hr, #block-views-block-analitics .field-content hr, #block-views-block-photo-gallery .field-content hr {
   margin-top: 0;
 }
 
-/* line 702, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 700, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-gallery-block img {
   height: 25vh;
   object-fit: cover;
   width: 100%;
 }
 
-/* line 708, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 706, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-gallery-block a {
   display: block;
   margin-top: 10px;
@@ -13784,7 +13790,7 @@ body.path-user .container-info p {
   line-height: 1.2;
 }
 
-/* line 717, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 715, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body[class*='page-error-'] .region-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15282,7 +15288,7 @@ body:not(.front-page), body.path-bloggers, body.path-user {
 
 /* line 6, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar, body.path-bloggers #navbar, body.path-user #navbar {
-  background-color: #ffffff;
+  background-color: #800000;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -15310,17 +15316,17 @@ body:not(.front-page) #navbar .container .navbar-header, body.path-bloggers #nav
   border-bottom: 0;
 }
 
-/* line 24, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 21, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .logo, body.path-bloggers #navbar .container .navbar-header .logo, body.path-user #navbar .container .navbar-header .logo {
   display: none;
 }
 
-/* line 26, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 23, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .logo img, body.path-bloggers #navbar .container .navbar-header .logo img, body.path-user #navbar .container .navbar-header .logo img {
   width: 50px;
 }
 
-/* line 30, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 27, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-brand, body.path-bloggers #navbar .container .navbar-header .navbar-brand, body.path-user #navbar .container .navbar-header .navbar-brand {
   color: #ffffff;
   font-size: 35px;
@@ -15328,24 +15334,24 @@ body:not(.front-page) #navbar .container .navbar-header .navbar-brand, body.path
   font-family: Arno Pro Bold Caption;
 }
 
-/* line 36, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 33, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-brand:hover, body.path-bloggers #navbar .container .navbar-header .navbar-brand:hover, body.path-user #navbar .container .navbar-header .navbar-brand:hover {
   color: #000;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 30, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 27, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container .navbar-header .navbar-brand, body.path-bloggers #navbar .container .navbar-header .navbar-brand, body.path-user #navbar .container .navbar-header .navbar-brand {
     margin-top: 0;
   }
 }
 
-/* line 44, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 41, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header p, body.path-bloggers #navbar .container .navbar-header p, body.path-user #navbar .container .navbar-header p {
   display: none;
 }
 
-/* line 47, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 44, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-toggle, body.path-bloggers #navbar .container .navbar-header .navbar-toggle, body.path-user #navbar .container .navbar-header .navbar-toggle {
   left: 5vw;
   top: 0;
@@ -15358,33 +15364,33 @@ body:not(.front-page) #navbar .container .navbar-header .navbar-toggle, body.pat
   border: 0;
 }
 
-/* line 58, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 55, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header .navbar-toggle span.icon-bar, body.path-bloggers #navbar .container .navbar-header .navbar-toggle span.icon-bar, body.path-user #navbar .container .navbar-header .navbar-toggle span.icon-bar {
   background-color: #ffffff;
 }
 
-/* line 63, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 60, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header button.navbar-toggle:hover, body.path-bloggers #navbar .container .navbar-header button.navbar-toggle:hover, body.path-user #navbar .container .navbar-header button.navbar-toggle:hover {
   background-color: #000;
 }
 
-/* line 66, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 63, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .navbar-header button.navbar-toggle:hover span.icon-bar, body.path-bloggers #navbar .container .navbar-header button.navbar-toggle:hover span.icon-bar, body.path-user #navbar .container .navbar-header button.navbar-toggle:hover span.icon-bar {
   background-color: #ffffff;
 }
 
-/* line 72, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 69, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container .region-navigation, body.path-bloggers #navbar .container .region-navigation, body.path-user #navbar .container .region-navigation {
   height: 60px;
   background-color: #800000;
 }
 
-/* line 77, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 74, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse.in, body.path-bloggers #navbar .container #navbar-collapse.in, body.path-user #navbar .container #navbar-collapse.in {
   display: block !important;
 }
 
-/* line 81, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 78, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse, body.path-bloggers #navbar .container #navbar-collapse, body.path-user #navbar .container #navbar-collapse {
   display: none !important;
   position: absolute;
@@ -15393,14 +15399,15 @@ body:not(.front-page) #navbar .container #navbar-collapse, body.path-bloggers #n
 }
 
 @media screen and (max-width: 767px) {
-  /* line 81, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 78, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse, body.path-bloggers #navbar .container #navbar-collapse, body.path-user #navbar .container #navbar-collapse {
     top: 60px;
   }
 }
 
-/* line 89, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 86, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible {
+  background-color: #000;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -15414,7 +15421,7 @@ body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-col
 }
 
 @media screen and (max-width: 767px) {
-  /* line 89, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 86, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible {
     width: 100%;
     float: none;
@@ -15422,14 +15429,14 @@ body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-col
 }
 
 @media screen and (max-width: 767px) {
-  /* line 99, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 97, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 103, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 101, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -15437,20 +15444,20 @@ body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-col
   }
 }
 
-/* line 108, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 106, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul li a, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul li a, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-mainnavigation ul li a {
   font-size: 20px;
   color: white;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 115, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 113, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) #navbar .container #navbar-collapse .region-navigation-collapsible #block-searchform, body.path-bloggers #navbar .container #navbar-collapse .region-navigation-collapsible #block-searchform, body.path-user #navbar .container #navbar-collapse .region-navigation-collapsible #block-searchform {
     display: none;
   }
 }
 
-/* line 124, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 122, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container, body.path-bloggers .main-container, body.path-user .main-container {
   max-width: 1100px;
   min-height: calc(100vh - 285px);
@@ -15459,54 +15466,54 @@ body:not(.front-page) .main-container, body.path-bloggers .main-container, body.
   padding-top: 60px;
 }
 
-/* line 131, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 129, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container img, body.path-bloggers .main-container img, body.path-user .main-container img {
   margin: 0 auto;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 124, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 122, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container, body.path-bloggers .main-container, body.path-user .main-container {
     width: 90vw;
   }
 }
 
-/* line 137, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 135, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container a, body.path-bloggers .main-container a, body.path-user .main-container a {
   color: #000;
 }
 
-/* line 140, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 138, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container a:hover, body.path-bloggers .main-container a:hover, body.path-user .main-container a:hover {
   font-weight: 600;
   text-decoration: none;
 }
 
-/* line 145, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 143, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9, body:not(.front-page) .main-container .row .col-sm-12, body.path-bloggers .main-container .row .col-sm-9, body.path-bloggers .main-container .row .col-sm-12, body.path-user .main-container .row .col-sm-9, body.path-user .main-container .row .col-sm-12 {
   float: none;
   margin: 0 auto;
 }
 
-/* line 152, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 150, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .highlighted .social-media-sharing ul, body:not(.front-page) .main-container .row .col-sm-12 .highlighted .social-media-sharing ul, body.path-bloggers .main-container .row .col-sm-9 .highlighted .social-media-sharing ul, body.path-bloggers .main-container .row .col-sm-12 .highlighted .social-media-sharing ul, body.path-user .main-container .row .col-sm-9 .highlighted .social-media-sharing ul, body.path-user .main-container .row .col-sm-12 .highlighted .social-media-sharing ul {
   float: left;
   padding: 20px 0;
 }
 
-/* line 157, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 155, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body:not(.front-page) .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img {
   width: 25px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 157, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 155, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body:not(.front-page) .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-bloggers .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-9 .highlighted .social-media-sharing ul li a img, body.path-user .main-container .row .col-sm-12 .highlighted .social-media-sharing ul li a img {
     width: 35px;
   }
 }
 
-/* line 172, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 170, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture {
   display: inline-block;
   float: left;
@@ -15514,24 +15521,24 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
   padding-bottom: 10px;
 }
 
-/* line 177, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 175, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content {
   margin-right: 20px;
 }
 
-/* line 179, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 177, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-avatars-user-picture .field-content img {
   border-radius: 200px;
   height: 80px;
   width: 80px;
 }
 
-/* line 187, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 185, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid {
   margin-top: 20px;
 }
 
-/* line 191, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 189, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content {
   text-decoration: none;
   font-size: 45px;
@@ -15542,13 +15549,13 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
 }
 
 @media screen and (max-width: 767px) {
-  /* line 191, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 189, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content {
     font-size: 35px;
   }
 }
 
-/* line 206, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 204, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-uid .field-content a, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-uid .field-content a {
   text-decoration: none;
   font-size: 18px;
@@ -15556,7 +15563,7 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
   font-style: italic;
 }
 
-/* line 217, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 215, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt {
   font-size: 16px;
   display: block;
@@ -15565,28 +15572,28 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
 }
 
 @media screen and (max-width: 767px) {
-  /* line 217, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 215, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-field-image .field-content .img-alt {
     font-size: 14px;
   }
 }
 
-/* line 230, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 228, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created {
   padding-bottom: 15px;
 }
 
-/* line 232, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 230, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created .field-content, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-created .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-created .field-content {
   font-size: 16px;
 }
 
-/* line 236, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 234, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body {
   padding-bottom: 20px;
 }
 
-/* line 239, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 237, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p {
   font-size: 20px;
   padding: 5px 0;
@@ -15594,32 +15601,32 @@ body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group
 }
 
 @media screen and (max-width: 767px) {
-  /* line 239, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 237, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-9 .region-content .form-group .view-content .views-row .views-field-body .field-content p, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-body .field-content p {
     font-size: 16px;
   }
 }
 
-/* line 259, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 257, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title {
   margin-top: 20px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 261, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 259, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-bloggers .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content, body.path-user .main-container .row .col-sm-12 .region-content .form-group .view-content .views-row .views-field-title .field-content {
     font-size: 30px;
     font-weight: 600;
   }
 }
 
-/* line 273, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 271, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside, body.path-bloggers .main-container .row aside, body.path-user .main-container .row aside {
   margin: 0 auto;
   float: none;
 }
 
-/* line 276, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 274, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well, body.path-bloggers .main-container .row aside .well, body.path-user .main-container .row aside .well {
   background: none;
   border: 0;
@@ -15628,14 +15635,14 @@ body:not(.front-page) .main-container .row aside .well, body.path-bloggers .main
 }
 
 @media screen and (max-width: 767px) {
-  /* line 276, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 274, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well, body.path-bloggers .main-container .row aside .well, body.path-user .main-container .row aside .well {
     padding: 0;
     text-align: center;
   }
 }
 
-/* line 285, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 283, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1,
@@ -15646,7 +15653,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   border-top: 1px solid #e2e2e2;
 }
 
-/* line 289, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 287, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .block-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .block-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .block-title, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .block-title,
@@ -15658,7 +15665,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   margin-top: 10px;
 }
 
-/* line 293, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 291, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
@@ -15671,7 +15678,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 293, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 291, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group,
@@ -15683,7 +15690,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 300, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 298, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
@@ -15703,7 +15710,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 300, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 298, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row,
@@ -15715,7 +15722,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 309, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 307, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
@@ -15729,7 +15736,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 309, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 307, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title,
@@ -15742,7 +15749,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 318, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 316, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title .field-content a,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title .field-content a, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
@@ -15756,7 +15763,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 318, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 316, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-title .field-content a,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-title .field-content a, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-title .field-content a,
@@ -15768,7 +15775,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 328, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 326, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
@@ -15781,7 +15788,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 328, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 326, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image,
@@ -15793,7 +15800,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 335, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 333, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image .field-content ul,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image .field-content ul, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul,
@@ -15805,7 +15812,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   margin-bottom: 0;
 }
 
-/* line 338, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 336, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image .field-content ul img, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
@@ -15820,7 +15827,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
 }
 
 @media screen and (max-width: 767px) {
-  /* line 338, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 336, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
   body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-field-image .field-content ul img, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-field-image .field-content ul img,
@@ -15833,7 +15840,7 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   }
 }
 
-/* line 351, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 349, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-created,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-2 .form-group .view-content .views-row .views-field-created,
 body:not(.front-page) .main-container .row aside .well #block-views-block-most-popular-content-block-3 .form-group .view-content .views-row .views-field-created, body.path-bloggers .main-container .row aside .well #block-views-block-most-popular-content-block-1 .form-group .view-content .views-row .views-field-created,
@@ -15847,12 +15854,12 @@ body.path-user .main-container .row aside .well #block-views-block-most-popular-
   width: 100px;
 }
 
-/* line 365, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 363, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li, body.path-bloggers .main-container .views-field-field-file li, body.path-user .main-container .views-field-field-file li {
   list-style-type: none;
 }
 
-/* line 367, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 365, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf {
   background: url("../images/icons/pdf.png") left center no-repeat;
   display: inline-block;
@@ -15862,42 +15869,42 @@ body:not(.front-page) .main-container .views-field-field-file li .file--mime-app
 }
 
 @media screen and (max-width: 767px) {
-  /* line 367, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 365, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf {
     font-size: 16px;
   }
 }
 
-/* line 376, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 374, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf .glyphicon-file:before, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf .glyphicon-file:before, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf .glyphicon-file:before {
   content: "";
 }
 
-/* line 379, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 377, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf span, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf span, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf span {
   border: none;
   background-color: #ededed;
 }
 
-/* line 383, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 381, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf a, body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf .file-size, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf a, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf .file-size, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf a, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf .file-size {
   text-decoration: none;
   color: #000;
   font-weight: 100;
 }
 
-/* line 388, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 386, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .views-field-field-file li .file--mime-application-pdf a:hover, body.path-bloggers .main-container .views-field-field-file li .file--mime-application-pdf a:hover, body.path-user .main-container .views-field-field-file li .file--mime-application-pdf a:hover {
   font-weight: 600;
 }
 
-/* line 394, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 392, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container .block-title, body.path-bloggers .main-container .block-title, body.path-user .main-container .block-title {
   color: #800000;
   text-transform: uppercase;
 }
 
-/* line 401, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 399, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type),
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type), body.path-bloggers .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type),
 body.path-bloggers .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type), body.path-user .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type),
@@ -15905,7 +15912,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .block-gr
   border-top: 1px solid #800000;
 }
 
-/* line 403, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 401, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type) .grid__content,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type) .grid__content, body.path-bloggers .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type) .grid__content,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .block-grid li:not(:first-of-type) .grid__content, body.path-user .main-container #block-views-block-administration-block .block-grid li:not(:first-of-type) .grid__content,
@@ -15913,7 +15920,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .block-gr
   margin-top: 20px;
 }
 
-/* line 407, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 405, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .block-grid li,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .block-grid li, body.path-bloggers .main-container #block-views-block-administration-block .block-grid li,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .block-grid li, body.path-user .main-container #block-views-block-administration-block .block-grid li,
@@ -15921,7 +15928,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .block-gr
   margin-bottom: 10px;
 }
 
-/* line 412, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 410, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper a,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper a, body.path-bloggers .main-container #block-views-block-administration-block .view-wrapper a,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .view-wrapper a, body.path-user .main-container #block-views-block-administration-block .view-wrapper a,
@@ -15930,7 +15937,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-right: 20px;
 }
 
-/* line 416, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 414, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper p,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper p, body.path-bloggers .main-container #block-views-block-administration-block .view-wrapper p,
 body.path-bloggers .main-container #block-views-block-teachers-corporation .view-wrapper p, body.path-user .main-container #block-views-block-administration-block .view-wrapper p,
@@ -15938,7 +15945,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-top: 20px;
 }
 
-/* line 421, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 419, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff,
 body:not(.front-page) .main-container #block-views-block-administration-block,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation, body.path-bloggers .main-container #block-views-block-administration-staff,
@@ -15949,7 +15956,7 @@ body.path-user .main-container #block-views-block-teachers-corporation {
   padding-bottom: 10px;
 }
 
-/* line 426, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 424, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .view-wrapper img,
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper img,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper img, body.path-bloggers .main-container #block-views-block-administration-staff .view-wrapper img,
@@ -15961,7 +15968,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-right: 20px;
 }
 
-/* line 430, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 428, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .view-wrapper p,
 body:not(.front-page) .main-container #block-views-block-administration-block .view-wrapper p,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .view-wrapper p, body.path-bloggers .main-container #block-views-block-administration-staff .view-wrapper p,
@@ -15972,7 +15979,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .view-wra
   margin-top: 20px;
 }
 
-/* line 434, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 432, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-title,
 body:not(.front-page) .main-container #block-views-block-administration-block .views-field-title,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-title, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-title,
@@ -15984,7 +15991,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
 }
 
 @media screen and (max-width: 767px) {
-  /* line 434, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 432, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-title,
   body:not(.front-page) .main-container #block-views-block-administration-block .views-field-title,
   body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-title, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-title,
@@ -15997,7 +16004,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
   }
 }
 
-/* line 441, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 439, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-nothing,
 body:not(.front-page) .main-container #block-views-block-administration-block .views-field-nothing,
 body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-nothing, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-nothing,
@@ -16010,7 +16017,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
 }
 
 @media screen and (max-width: 480px) {
-  /* line 421, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 419, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container #block-views-block-administration-staff,
   body:not(.front-page) .main-container #block-views-block-administration-block,
   body:not(.front-page) .main-container #block-views-block-teachers-corporation, body.path-bloggers .main-container #block-views-block-administration-staff,
@@ -16020,7 +16027,7 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
   body.path-user .main-container #block-views-block-teachers-corporation {
     font-size: 16px;
   }
-  /* line 449, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 447, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body:not(.front-page) .main-container #block-views-block-administration-staff .views-field-nothing .view-wrapper img,
   body:not(.front-page) .main-container #block-views-block-administration-block .views-field-nothing .view-wrapper img,
   body:not(.front-page) .main-container #block-views-block-teachers-corporation .views-field-nothing .view-wrapper img, body.path-bloggers .main-container #block-views-block-administration-staff .views-field-nothing .view-wrapper img,
@@ -16034,51 +16041,51 @@ body.path-user .main-container #block-views-block-teachers-corporation .views-fi
   }
 }
 
-/* line 458, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 456, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-history, body.path-bloggers .main-container #block-views-block-history, body.path-user .main-container #block-views-block-history {
   padding-bottom: 20px;
 }
 
-/* line 461, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 459, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-history .view-content .views-more-link, body.path-bloggers .main-container #block-views-block-history .view-content .views-more-link, body.path-user .main-container #block-views-block-history .view-content .views-more-link {
   float: right;
 }
 
-/* line 464, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 462, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container #block-views-block-history .view-content div:not(:first-of-type), body.path-bloggers .main-container #block-views-block-history .view-content div:not(:first-of-type), body.path-user .main-container #block-views-block-history .view-content div:not(:first-of-type) {
   border-top: 1px solid #e2e2e2;
   margin: 50px 0 20px 0;
   padding-top: 20px;
 }
 
-/* line 471, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 469, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) .main-container article.administration, body.path-bloggers .main-container article.administration, body.path-user .main-container article.administration {
   display: none;
 }
 
-/* line 477, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 475, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent button, body.path-bloggers #cboxWrapper #cboxContent button, body.path-user #cboxWrapper #cboxContent button {
   position: absolute;
   top: 0;
   bottom: 0;
 }
 
-/* line 482, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 480, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxNext, body.path-bloggers #cboxWrapper #cboxContent #cboxNext, body.path-user #cboxWrapper #cboxContent #cboxNext {
   right: 2vw;
 }
 
-/* line 485, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 483, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious, body.path-bloggers #cboxWrapper #cboxContent #cboxPrevious, body.path-user #cboxWrapper #cboxContent #cboxPrevious {
   left: 2vw;
 }
 
-/* line 488, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 486, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious, body:not(.front-page) #cboxWrapper #cboxContent #cboxNext, body.path-bloggers #cboxWrapper #cboxContent #cboxPrevious, body.path-bloggers #cboxWrapper #cboxContent #cboxNext, body.path-user #cboxWrapper #cboxContent #cboxPrevious, body.path-user #cboxWrapper #cboxContent #cboxNext {
   display: block;
 }
 
-/* line 490, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 488, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious:before, body:not(.front-page) #cboxWrapper #cboxContent #cboxNext:before, body.path-bloggers #cboxWrapper #cboxContent #cboxPrevious:before, body.path-bloggers #cboxWrapper #cboxContent #cboxNext:before, body.path-user #cboxWrapper #cboxContent #cboxPrevious:before, body.path-user #cboxWrapper #cboxContent #cboxNext:before {
   background: rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
@@ -16088,7 +16095,7 @@ body:not(.front-page) #cboxWrapper #cboxContent #cboxPrevious:before, body:not(.
   height: 22px;
 }
 
-/* line 499, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 497, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body:not(.front-page) #cboxWrapper #cboxContent #cboxClose, body.path-bloggers #cboxWrapper #cboxContent #cboxClose, body.path-user #cboxWrapper #cboxContent #cboxClose {
   top: 2vw;
   right: 2vw;
@@ -16096,7 +16103,7 @@ body:not(.front-page) #cboxWrapper #cboxContent #cboxClose, body.path-bloggers #
   font-weight: 700;
 }
 
-/* line 514, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 512, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row {
   display: -webkit-flex;
   display: -ms-flex;
@@ -16111,7 +16118,7 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
 }
 
 @media screen and (max-width: 450px) {
-  /* line 514, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 512, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -16119,20 +16126,20 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
   }
 }
 
-/* line 527, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 525, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
   width: 80px;
   margin-right: 0;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 527, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 525, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
     width: 150px;
   }
 }
 
-/* line 534, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 532, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content a img {
   object-fit: cover;
   height: 80px;
@@ -16141,7 +16148,7 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
 }
 
 @media screen and (max-width: 450px) {
-  /* line 534, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 532, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row .views-field-avatars-user-picture .field-content a img {
     width: 150px;
     height: 150px;
@@ -16149,13 +16156,13 @@ body.path-bloggers .main-container .col-sm-12 .bloggers .view-content .views-row
 }
 
 @media screen and (max-width: 450px) {
-  /* line 552, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 550, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content {
     margin-top: 20px;
   }
 }
 
-/* line 556, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 554, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row {
   display: -webkit-flex;
   display: -ms-flex;
@@ -16167,7 +16174,7 @@ body.path-bloggers .view-content .views-row {
 }
 
 @media screen and (max-width: 450px) {
-  /* line 556, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 554, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content .views-row {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -16176,19 +16183,19 @@ body.path-bloggers .view-content .views-row {
   }
 }
 
-/* line 569, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 567, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
   width: 100px;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 569, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 567, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content {
     width: 150px;
   }
 }
 
-/* line 574, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 572, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content img {
   object-fit: cover;
   height: 100px;
@@ -16196,37 +16203,37 @@ body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .f
 }
 
 @media screen and (max-width: 450px) {
-  /* line 574, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 572, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-bloggers .view-content .views-row .views-field-avatars-user-picture .field-content img {
     height: 150px;
   }
 }
 
-/* line 584, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 582, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing {
   margin: 25px;
 }
 
-/* line 586, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 584, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing .bloger-name a {
   font-size: 36px;
   color: #000;
   text-decoration: none;
 }
 
-/* line 591, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 589, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing p {
   color: #666666;
   font-size: 16px;
 }
 
-/* line 594, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 592, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-bloggers .view-content .views-row .views-field-nothing p a {
   color: #9e0f07;
   text-decoration: none;
 }
 
-/* line 605, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 603, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info {
   display: -webkit-flex;
   display: -ms-flex;
@@ -16237,7 +16244,7 @@ body.path-user .container-info {
           flex-direction: column;
 }
 
-/* line 610, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 608, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info .img-name {
   width: 100%;
   display: -webkit-inline-flex;
@@ -16250,7 +16257,7 @@ body.path-user .container-info .img-name {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 610, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 608, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info .img-name {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -16260,7 +16267,7 @@ body.path-user .container-info .img-name {
   }
 }
 
-/* line 621, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 619, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info .img-name img {
   object-fit: cover;
   height: 100px;
@@ -16269,14 +16276,14 @@ body.path-user .container-info .img-name img {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 621, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 619, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info .img-name img {
     height: 150px;
     width: 150px;
   }
 }
 
-/* line 632, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 630, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info .img-name .bloger-name {
   font-size: 36px;
   color: #000;
@@ -16285,14 +16292,14 @@ body.path-user .container-info .img-name .bloger-name {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 632, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 630, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info .img-name .bloger-name {
     margin-top: 10px;
     margin-left: 0;
   }
 }
 
-/* line 644, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 642, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body.path-user .container-info p {
   padding: 25px 0 25px 125px;
   border-bottom: 1px solid black;
@@ -16300,48 +16307,48 @@ body.path-user .container-info p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 644, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+  /* line 642, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
   body.path-user .container-info p {
     padding: 25px 0;
   }
 }
 
-/* line 656, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 654, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .page-node-type-videos .views-field-field-video {
   width: 70vw;
   margin: 0 auto;
 }
 
-/* line 659, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 657, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .page-node-type-videos .views-field-field-video .field-content {
   margin: 20px 0 20px 0;
 }
 
-/* line 667, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 665, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .pagination .active a {
   background-color: #dadada;
   border-color: #dadada;
 }
 
-/* line 670, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 668, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .pagination .active a:hover {
   background-color: #dadada;
 }
 
-/* line 677, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 675, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 .field--name-user-picture,
 .author {
   display: none;
 }
 
-/* line 683, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 681, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-news-block img, #block-views-block-videos-block img, #block-views-block-analitics img, #block-views-block-photo-gallery img {
   height: 25vh;
   object-fit: cover;
   width: 100%;
 }
 
-/* line 689, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 687, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-news-block .views-field-title, #block-views-block-videos-block .views-field-title, #block-views-block-analitics .views-field-title, #block-views-block-photo-gallery .views-field-title {
   font-size: 30px;
   display: block;
@@ -16349,19 +16356,19 @@ body.path-user .container-info p {
   line-height: 1.2;
 }
 
-/* line 696, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 694, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-news-block .field-content hr, #block-views-block-videos-block .field-content hr, #block-views-block-analitics .field-content hr, #block-views-block-photo-gallery .field-content hr {
   margin-top: 0;
 }
 
-/* line 702, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 700, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-gallery-block img {
   height: 25vh;
   object-fit: cover;
   width: 100%;
 }
 
-/* line 708, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 706, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 #block-views-block-gallery-block a {
   display: block;
   margin-top: 10px;
@@ -16369,7 +16376,7 @@ body.path-user .container-info p {
   line-height: 1.2;
 }
 
-/* line 717, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
+/* line 715, D:/OSPanel/domains/vpba/web/themes/custom/vpba/scss/pages/_nodes.scss */
 body[class*='page-error-'] .region-content {
   display: -webkit-flex;
   display: -ms-flexbox;

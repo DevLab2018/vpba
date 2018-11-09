@@ -4,7 +4,7 @@
 body:not(.front-page), body.path-bloggers, body.path-user {
   background-color: $backgraund_grey;
   #navbar {
-    background-color: $white;
+    background-color: $menu_color;
     border-bottom: 1px solid $white;
     &:hover {
       border-bottom: 1px solid $black;
@@ -17,9 +17,6 @@ body:not(.front-page), body.path-bloggers, body.path-user {
       }
       .navbar-header {
         width: 100%;
-        //display: flex;
-        //align-items: center;
-        //justify-content: center;
         border-bottom: 0;
         .logo {
           display: none;
@@ -87,6 +84,7 @@ body:not(.front-page), body.path-bloggers, body.path-user {
           top: 60px;
         }
         .region-navigation-collapsible {
+          background-color: $black;
           display: flex;
           justify-content: center;
           align-items: center;
